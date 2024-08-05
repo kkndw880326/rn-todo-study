@@ -1,11 +1,10 @@
 import { Image, StyleSheet, Text, View } from 'react-native';
-import TestImage from '../../assets/test.png';
+import MainImage from '../../assets/main.png';
 
 const SignInScreen = () => {
   return (
     <View style={styles.container}>
-      <Image source={TestImage} style={styles.image}></Image>
-      <Text>SignInScreen</Text>
+      <Image source={MainImage} style={styles.image} resizeMode="cover"></Image>
     </View>
   );
 };
